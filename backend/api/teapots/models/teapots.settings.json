@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teapots",
+  "info": {
+    "name": "teapots"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "blacklight": {
+      "type": "boolean"
+    },
+    "categories": {
+      "via": "teapots",
+      "collection": "categories"
+    }
+  }
+}

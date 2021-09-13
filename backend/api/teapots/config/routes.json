@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/teapots",
+      "handler": "teapots.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teapots/count",
+      "handler": "teapots.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teapots/:id",
+      "handler": "teapots.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/teapots",
+      "handler": "teapots.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/teapots/:id",
+      "handler": "teapots.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/teapots/:id",
+      "handler": "teapots.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

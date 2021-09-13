@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hellos",
+  "info": {
+    "name": "hello"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
